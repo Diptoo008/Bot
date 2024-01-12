@@ -1,7 +1,7 @@
 const dipto = require('axios');
 const fs = require('fs-extra');
 module.exports.config = {
-  name: "uptime",
+  name: "uptime2",
   version: "1.0.2",
   hasPermssion: 0,
   credits: "Mirai Team",
