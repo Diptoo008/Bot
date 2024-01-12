@@ -6,7 +6,7 @@ if (!fs.existsSync(pathFile))
   fs.writeFileSync(pathFile, 'false');
   const isEnable = fs.readFileSync(pathFile, 'utf-8');
 module.exports.config = {
-  name: "auto",
+  name: "auto-dl",
   version: "1.0.0",
   hasPermssion: 1,
   credits: "Dipto",
